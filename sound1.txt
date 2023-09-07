@@ -1,0 +1,131 @@
+import java.util.Scanner;
+class Sara
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter sound value : ");
+		String sound=sc.nextLine();
+		String s[]=sound.split("/");
+		
+		for(int i=0;i<s.length;i++)
+		{
+			if(s[i].equals("l*"))
+			{
+				System.out.print("a");
+			}
+			else if(s[i].equals("l*-*"))
+			{
+				System.out.print("b");
+			}
+			else if(s[i].equals("l*-*-*"))
+			{
+				System.out.print("c");
+			}
+			else if(s[i].equals("l*-*-*-*"))
+			{
+				System.out.print("d");
+			}
+			else if(s[i].equals("l*-*-*-*-*"))
+			{
+				System.out.print("e");
+			}
+			else if(s[i].equals("l*-*-*-*-*-*"))
+			{
+				System.out.print("f");
+			}
+			else if(s[i].equals("l****-****"))
+			{
+				System.out.print("g");
+			}
+			else if(s[i].equals("l****-****-****"))
+			{
+				System.out.print("h");
+			}
+			else if(s[i].equals("l****-****-****-****"))
+			{
+				System.out.print("i");
+			}
+			else if(s[i].equals("l****-****-****-****-****"))
+			{
+				System.out.print("j");
+			}
+			else if(s[i].equals("l****-****-****-****-****-****"))
+			{
+				System.out.print("k");
+			}
+			else if(s[i].equals("l****-****-****-****-****-****-****"))
+			{
+				System.out.print("l");
+			}
+			else if(s[i].equals("r*"))
+			{
+				System.out.print("m");
+			}
+			else if(s[i].equals("r*-*"))
+			{
+				System.out.print("n");
+			}
+			else if(s[i].equals("r*-*-*"))
+			{
+				System.out.print("o");
+			}
+			else if(s[i].equals("r*-*-*-*"))
+			{
+				System.out.print("p");
+			}
+			else if(s[i].equals("r*-*-*-*-*"))
+			{
+				System.out.print("q");
+			}
+			else if(s[i].equals("r*-*-*-*-*-*"))
+			{
+				System.out.print("r");
+			}
+			else if(s[i].equals("r****-****"))
+			{
+				System.out.print("s");
+			}
+			else if(s[i].equals("r****-****-****"))
+			{
+				System.out.print("t");
+			}
+			else if(s[i].equals("r****-****-****-****"))
+			{
+				System.out.print("u");
+			}
+			else if(s[i].equals("r****-****-****-****-****"))
+			{
+				System.out.print("v");
+			}
+			else if(s[i].equals("r****-****-****-****-****-****"))
+			{
+				System.out.print("w");
+			}
+			else if(s[i].equals("r****-****-****-****-****-****-****"))
+			{
+				System.out.print("x");
+			}
+			else if(s[i].equals("*-**-***-****"))
+			{
+				System.out.print("y");
+			}
+			else if(s[i].equals("****"))
+			{
+				System.out.print("z");
+			}
+			else
+			{
+				System.out.print("no value ");
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+	}
+}
